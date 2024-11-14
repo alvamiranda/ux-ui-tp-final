@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #151515;
+}
+
+
+.header {
+    background-image: url(images/Banner.png);
+    min-height: 516px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu-container{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Monrope', sans-serif;
+}
+
+.logo{
+    width: 40px;
+}
+.menu-container .navbar ul li{
+    position: relative;
+    float: left;
+    
+}
+
+.navbar{
+    margin-left: 160px;
+}
+
+.menu-container .navbar ul li a{
+
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    color: #FFFFFF;
+}
+
+.menu-container .navbar ul li a:hover{
+
+   color: #CEA561;
+}
+
+.signup img{
+    width: 30px;
+    margin-right: 15px;
+
+}
+
+.signup .signup-button{
+    background-color: #CEA561; 
+    padding: 15px 30px; 
+    font-size: 16px;   
+    border: none;       
+    color: #151515;
+    border-radius: 12px;        
+    cursor: pointer;   
+}
+
+.header-title-container h1{
+    font-size: 80px;
+    color: white;
+}
+
+.header-title-container h3{
+    font-size: 20px;
+    opacity: 0.5;
+    color: white;
+    font-family: 'Monrope', sans-serif;
+    font-weight: 1;
+}
+
+
+.services{
+
+    padding-top: 100px;
+}
+
+.services-title-container h2{
+
+    font-size: 64px;
+    color: white;
+}
+
+.services-title-container p{
+    opacity: 0.7;
+    font-family: 'Monrope', sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 1;
+    padding: 25px;
+    width: 670px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+main{
+    color: #FFFFFF;
+}
+.card-services-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-row{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+    gap: 24px
+}
+
+.card img{
+    width: 110px;
+    height: 90px;
+    margin-bottom: 30px;
+
+}
+
+.card p{
+    font-size: 48px;
+    margin: 0 auto;
+    width: 250px;
+}
+
+.card{
+    width: 312px;
+    height: 404px;
+    background-color: #151515;
+    border-radius: 12px;
+    border: 1px solid #CEA561;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+
+.packages-section{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.packages-title-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.packages-title-container h2{
+    font-weight: 1;
+    font-size: 64px;
+    margin-bottom: 18px;
+}
+
+.packages-title-container p{
+    font-size: 16px;
+    font-family: 'Monrope', sans-serif;
+    opacity: 0.7;
+    margin-bottom: 80px;
+}
+
+
+
+.card-packages-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Monrope', sans-serif;
+    gap: 24px;
+}
+
+.card-package{
+
+    margin-top: 10px;
+    width: 424px;
+    height: 528px;
+    background-color: #2B2B2B;
+    border-radius: 12px;
+    border: 1px solid #CEA561;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.card-package h3{
+    font-size: 32px;
+    font-weight: 1;
+    margin-bottom: 23px;
+}
+
+.card-package h4{
+    font-size: 40px;
+    font-weight: 1;
+    margin-bottom: 40px;
+}
+
+.benefits-container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    width: 289px;
+    height: 168px;
+    
+}
+
+
+.benefits-fila img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+   
+    
+}
+
+.benefits-fila{
+    display: flex;
+    text-align: left;
+}
+
+.benefits-fila p{
+    opacity: 0.70;
+}
+
+.card-package .choose-plan-button{
+
+    margin-top: 60px;
+    padding: 16px 48px; 
+    font-size: 16px;   
+    border: 1px solid #CEA561;       
+    color: #ECECEC;
+    border-radius: 12px;        
+    cursor: pointer; 
+    text-align: center;
+}
+
+
+
+
+.appointment-section-title h2{
+    margin-top: 100px;
+    font-size: 64px;
+    font-weight: 1;
+
+}
+
+
+.appointment-section-title p{
+    opacity: 0.70;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 754px;
+    font-size: 16px;
+    font-weight: 1;
+    font-family: 'Monrope', sans-serif;
+}
+
+
+
+
+
+
+.calendario-container{
+    margin: 0 auto;
+    margin-top: 65px;
+    font-family: 'SF Pro Display', sans-serif;
+    width: 648px;
+    height: 344px;
+    background-color: #2B2B2B;
+    border-radius: 13px;
+    border: 1px solid #CEA561;
+}
+
+
+
+
+.calendar-header .date{
+
+    font-size: 17px;
+    
+}
+.calendar-header .icons span{
+    color: #CEA561;
+    display: inline-block;
+    transform: scaleY(2);
+    margin-left: 35px;
+    text-align: center;
+
+}
+
+.icons{
+    display: flex;
+}
+.calendar-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.calendar .weeks li{
+    margin-top: 30px;
+    font-size: 13px;
+    opacity: 0.50;
+}
+
+.calendar .days li{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.calendar{
+    padding-bottom: 10px;
+}
+.calendar ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.calendar ul li{
+    width: calc(100% / 7);
+}
+
+
+.appointment-section h3{
+    font-family: 'Monrope', sans-serif;
+    font-weight: 1;
+    font-size: 32px;
+    margin-top: 60px;
+}
+
+.select-time-container{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.select-time-container button{
+    margin-top: 55px;
+    padding: 20px 34px; 
+    font-size: 16px;   
+    border: 1px solid #CEA561;       
+    color: #ECECEC;
+    border-radius: 12px;        
+    cursor: pointer; 
+    text-align: center;
+    background-color: #151515;
+}
+
+.book-form-container{
+    margin-top: 60px;
+    max-width: 1400px;
+    gap:30px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    justify-content: center;
+}
+
+
+.campo{
+    width: 648px;
+    height: 72px;
+    padding: 24px 32px;
+    font-size: 16px;
+    background-color: #2B2B2B;
+    border: 1px solid #6A6A6A;
+    color: #7C7C7C;
+    border-radius: 12px;
+    box-sizing: border-box;
+
+}
+
+.book-button{
+    background-color: #CEA561; 
+    width: 215px;
+    height: 60px;
+    font-size: 16px;   
+    border: none;       
+    color: #151515;
+    border-radius: 12px;        
+    cursor: pointer; 
+}
+
+.stay-updated-section{
+    height: 468px;
+    background-color: #1B1B1B;
+    margin-top: 72px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.stay-updated-container{
+    width: 639px;
+    height: 228px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.stay-updated-container h2{
+    font-size: 64px;
+    margin-bottom:12px ;
+}
+
+.stay-updated-container p{
+    font-size: 16x;
+    margin-bottom:32px;
+    font-family: 'Monrope', sans-serif;
+    opacity: 0.7;
+
+}
+
+
+
+.stay-updated-container .email-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.email-bar form {
+    display: flex;
+    position: relative;
+    
+}
+
+
+.stay-updated-container .email-bar input[type="email"]{
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #1B1B1B; /* Color de fondo de la barra */
+    border-radius: 12px;
+    border: 1px solid #6A6A6A;
+    width: 514px;
+    height: 56px;
+    padding-left: 32px;
+}
+
+.email-bar button[type=submit] {
+    height: 56px;
+    width: 126px;
+    right: 0px;
+    font-size: 16px;
+    background-color: #CEA561;
+    position: absolute;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+.footer-container .footer-links{
+    padding-top: 100px;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Monrope', sans-serif;
+}
+
+
+.link-img{
+    text-align: left;
+
+}
+
+.link-img img{
+    margin-bottom: 32px;
+}
+
+.link-img p{
+    color: white;
+    opacity: 0.5;
+    max-width: 339px;
+    font-size: 16px;
+    font-weight: 1px;
+}
+
+.socials img{
+    width: 30px;
+    margin-right: 20px;
+    margin-top: 32px;
+}
+
+
+.link{
+    text-align: left;
+}
+
+.link a{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.link ul li{
+    color: white;
+    opacity: 0.50;
+}
+
+.link h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 1;
+}
+
+.footer-copy{
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+    border-top: 1px solid #313131;
+}
+
+.footer-copy p{
+    color: white;
+    opacity: 0.50;
+    font-family: 'Monrope', sans-serif;
+    font-size: 12px;
+}
